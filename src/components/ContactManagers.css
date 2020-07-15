@@ -1,0 +1,37 @@
+.contacts {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--mainGrey);
+  text-align: center;
+}
+
+.contact {
+  border-radius: 10px;
+  box-shadow: var(--lightShadow);
+  min-width: 40%;
+  padding-top: 7px;
+  background: var(--darkGrey);
+}
+
+.contacts-center {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.contacts span {
+  display: inline-block;
+  color: var(--primaryColor);
+  font-size: 2rem;
+  margin: 0.2rem 0;
+}
+.contacts h6 {
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+}
+.contacts p {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 0.4rem;
+  padding: 0.5rem 0.5rem;
+}

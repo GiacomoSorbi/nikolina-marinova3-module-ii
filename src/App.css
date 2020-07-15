@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primaryColor: #af9a7d;
+  --mainLight: #fff;
+  --offWhite: #f7f7f7;
+  --mainDark: #333333;
+  --mainGrey: #f4f4f4;
+  --darkGrey: #e7e7e7;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 2px;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.6);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.6);
+}
+/* globals */
+body {
+  padding-top: 66px;
+  color: var(--mainDark);
+  background: var(--offWhite);
+  font-family: Verdana, Geneva, Tahoma, Fira, sans-serif;
+  line-height: 1.4;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+h3 {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+h4 {
+  font-size: 1.2rem;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+}
+h5,
+h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  /* margin-bottom: 1.5rem; */
+}
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: var(--mainDark);
+  background: var(--primaryColor);
+  padding: 0.4rem 0.9rem;
+  border: 2px solid var(--primaryColor);
+  border-radius: 12px;
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background: transparent;
+  color: var(--primaryColor);
+}
+.loading {
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 3rem;
+}
+.error {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+.empty-search {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 2rem 0;
+  padding: 1rem;
+  letter-spacing: var(--mainSpacing);
+}
+/* end of globals */
+
+/* Hero */
+
+.defaultHero,
+.flowersHero,
+.contactHero,
+.testimonialsHero {
+  min-height: calc(100vh - 66px);
+  background: url("./images/defaultBcg.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flowersHero {
+  background-image: url("./images/flower-2.jpg");
+  min-height: 40vh;
+}
+
+.contactHero {
+  background-image: url("./images/flower-14.jpg");
+  min-height: 40vh;
+}
+
+.testimonialsHero {
+  background-image: url("./images/flower-15.jpg");
+  min-height: 40vh;
+}
+/* End of Hero */

@@ -1,0 +1,17 @@
+/* Footer */
+.footer {
+  text-align: center;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #dfdfdf;
+}
+.footer p {
+  font-size: 0.7rem;
+  /* letter-spacing: var(--mainSpacing); */
+  margin-bottom: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  color: (--primaryColor);
+}
+
+/* end of Footer */

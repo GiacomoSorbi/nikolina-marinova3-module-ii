@@ -1,0 +1,26 @@
+/* Banner */
+.banner {
+  display: inline-block;
+  background: rgba(24, 23, 31, 0.6);
+  color: var(--mainLight);
+  padding: 2rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  border-radius: 12px;
+}
+.banner h1 {
+  font-size: 2.5rem;
+}
+.banner div {
+  width: 100%;
+  height: 1px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* End of Banner */

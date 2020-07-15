@@ -1,0 +1,27 @@
+/* Hero */
+
+.defaultHero,
+.flowersHero,
+.contactHero,
+.testimonialsHero {
+  min-height: calc(100vh - 66px);
+  background: url("./images/defaultBcg.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flowersHero {
+  background-image: url("./images/flower-2.jpg");
+  min-height: 40vh;
+}
+
+.contactHero {
+  background-image: url("./images/flower-14.jpg");
+  min-height: 40vh;
+}
+
+.testimonialsHero {
+  background-image: url("./images/flower-15.jpg");
+  min-height: 50vh;
+}
+/* End of Hero */

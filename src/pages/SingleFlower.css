@@ -1,0 +1,70 @@
+/* single flower*/
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.single-flower-images,
+.single-flower-info,
+.main {
+  width: 95%;
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.single-flower {
+  margin: 3px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background: var(--mainGrey); */
+}
+.single-flower-images {
+  margin: 3px auto;
+}
+
+.single-flower-images img {
+  margin: 7px auto;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: var(--lightShadow);
+}
+
+.main {
+  margin: 0 auto;
+  width: 95%;
+  padding: 0 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.main-unit {
+  margin: 7px 1%;
+  padding: 3px 1%;
+  align-content: center;
+  background-color: var(--darkGrey);
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: justify;
+  box-shadow: var(--lightShadow);
+}
+
+.main-unit ul {
+  list-style: none;
+}
+
+.main-unit h6 {
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  text-align: center;
+  margin: 7px;
+}
+
+/* end of single flower*/

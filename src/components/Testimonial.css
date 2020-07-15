@@ -1,0 +1,36 @@
+.testimonials {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--mainGrey);
+  text-align: center;
+}
+
+.testimonial {
+  border-radius: 10px;
+  box-shadow: var(--lightShadow);
+  padding-top: 7px;
+  margin: 0 7px;
+  background: var(--darkGrey);
+}
+
+.testimonials-center {
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.testimonials span {
+  display: inline-block;
+  color: var(--primaryColor);
+  font-size: 2.5rem;
+  margin: 0.3rem 0;
+}
+.testimonials h6 {
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+}
+.testimonial p {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 0.7rem;
+}

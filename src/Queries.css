@@ -1,0 +1,184 @@
+/* Media Queries - Mobile First Approach */
+@media screen and (min-width: 576px) {
+  .banner {
+    padding: 2rem 3rem;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 776px) {
+  .filter-form {
+    width: 70vw;
+  }
+
+  .flowerslist-center {
+    width: 90vw;
+  }
+
+  .contacts-center {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+  }
+  .nav-links {
+    height: auto;
+    display: flex;
+    margin-left: 4rem;
+  }
+  .nav-links a {
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+  }
+
+  .new-flowers-center {
+    width: 90vw;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+
+  .services-center {
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 5%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .banner {
+    padding: 2rem 6rem;
+  }
+
+  .banner h1 {
+    font-size: 4rem;
+  }
+
+  .flowerslist-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+
+  .filter-form {
+    width: 95vw;
+    max-width: 1170px;
+  }
+
+  .footer p {
+    width: 70%;
+    max-width: 1170px;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+  }
+
+  .new-flowers-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+
+  .contacts-center {
+    max-width: 1170px;
+  }
+
+  .services-center {
+    max-width: 1170px;
+  }
+
+  .section-subtitle p {
+    width: 70%;
+    max-width: 1170px;
+  }
+  .testimonials-center {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .testimonial {
+    max-width: 33%;
+  }
+
+  .testimonials-center {
+    max-width: 1170px;
+  }
+
+  .single-flower {
+    margin: 3px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .single-flower-images {
+    margin: 3px auto;
+    width: 86%;
+    padding: 1% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .single-flower-images img {
+    margin: 3px 17px;
+    width: 35%;
+    border-radius: 10px;
+  }
+
+  .main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .main-unit {
+    width: 33%;
+    margin: 0 17px;
+    padding: 5px 1.2%;
+    align-content: center;
+    border-radius: 10px;
+    font-size: 0.8rem;
+  }
+
+  .main-unit h6 {
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts p {
+    width: 100%;
+  }
+  .services p {
+    width: 100%;
+  }
+
+  .testimonials p {
+    width: 100%;
+  }
+}
+
+/* End of Media Queries - Mobile First Approach */
