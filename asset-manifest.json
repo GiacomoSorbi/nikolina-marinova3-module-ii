@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/css/main.0f5b38e7.chunk.css",
+    "main.js": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/js/main.8900dbae.chunk.js",
+    "main.js.map": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/js/main.8900dbae.chunk.js.map",
+    "runtime-main.js": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/js/runtime-main.82546700.js",
+    "runtime-main.js.map": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/js/runtime-main.82546700.js.map",
+    "static/js/2.fa460680.chunk.js": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/js/2.fa460680.chunk.js",
+    "static/js/2.fa460680.chunk.js.map": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/js/2.fa460680.chunk.js.map",
+    "index.html": "/GiacomoSorbi/nikolina-marinova3-module-ii/index.html",
+    "precache-manifest.69a3526b132a9706623de6e19a8fa0ea.js": "/GiacomoSorbi/nikolina-marinova3-module-ii/precache-manifest.69a3526b132a9706623de6e19a8fa0ea.js",
+    "service-worker.js": "/GiacomoSorbi/nikolina-marinova3-module-ii/service-worker.js",
+    "static/css/main.0f5b38e7.chunk.css.map": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/css/main.0f5b38e7.chunk.css.map",
+    "static/js/2.fa460680.chunk.js.LICENSE.txt": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/js/2.fa460680.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/flower-2.816b491a.jpg",
+    "static/media/details-2.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/details-2.79944444.jpg",
+    "static/media/details-3.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/details-3.1d0d9e77.jpg",
+    "static/media/details-4.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/details-4.4981df3d.jpg",
+    "static/media/flower-1.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/flower-1.71a91d9c.jpg",
+    "static/media/flower-10.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/flower-10.f86319cd.jpg",
+    "static/media/flower-11.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/flower-11.5ed9a9f7.jpg",
+    "static/media/flower-12.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/flower-12.192aa6c9.jpg",
+    "static/media/flower-3.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/flower-3.07a8a331.jpg",
+    "static/media/flower-4.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/flower-4.6d0c1961.jpg",
+    "static/media/flower-5.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/flower-5.89b5ad16.jpg",
+    "static/media/flower-6.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/flower-6.118fe435.jpg",
+    "static/media/flower-7.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/flower-7.4c6d136b.jpg",
+    "static/media/flower-8.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/flower-8.e6e64a96.jpg",
+    "static/media/flower-9.jpg": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/flower-9.a46ec33d.jpg",
+    "static/media/loading-arrow.gif": "/GiacomoSorbi/nikolina-marinova3-module-ii/static/media/loading-arrow.e9ea7394.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82546700.js",
+    "static/js/2.fa460680.chunk.js",
+    "static/css/main.0f5b38e7.chunk.css",
+    "static/js/main.8900dbae.chunk.js"
+  ]
+}
