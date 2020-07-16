@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Flowers from "./pages/Flowers";
 import Contact from "./pages/Contact";
 import SingleFlower from "./pages/SingleFlower";
-import Error from "./pages/Error";
+// import Error from "./pages/Error";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Testimonials from "./pages/Testimonials";
@@ -22,7 +22,7 @@ function App() {
         <Route exact path="/testimonials/" component={Testimonials} />
         <Route exact path="/contact/" component={Contact} />
         <Route exact path="/flowers/:specific" component={SingleFlower} />
-        <Route component={Error} />
+        {/* <Route component={Error} /> */}
       </Switch>
       <Footer />
     </>
