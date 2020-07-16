@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4738959969d17cfe0a9d7b892a2c7ab5",
+    "revision": "8ede5f7b3b0538d4278eeddf81a0ef65",
     "url": "/nikolina-marinova3-module-ii/index.html"
   },
   {
-    "revision": "0371031ebb66b8cf5619",
+    "revision": "99123d40f829d35d3115",
     "url": "/nikolina-marinova3-module-ii/static/css/main.44cda55c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nikolina-marinova3-module-ii/static/js/2.036a460a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0371031ebb66b8cf5619",
-    "url": "/nikolina-marinova3-module-ii/static/js/main.0684e735.chunk.js"
+    "revision": "99123d40f829d35d3115",
+    "url": "/nikolina-marinova3-module-ii/static/js/main.fbf771d3.chunk.js"
   },
   {
     "revision": "d3ac444479e4f8cd8c9c",
