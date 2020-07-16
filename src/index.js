@@ -6,8 +6,10 @@ import * as serviceWorker from "./serviceWorker";
 import { FlowerProvider } from "./context";
 ReactDOM.render(
   <FlowerProvider>
-    <Router>
-      <App />
+    <Router basename={process.env.PUBLIC_URL}>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
     </Router>
   </FlowerProvider>,
   document.getElementById("root")
