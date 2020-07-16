@@ -17,11 +17,11 @@ function App() {
     <>
       <Navbar />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/flowers/" component={Flowers} />
-        <Route exact path="/testimonials/" component={Testimonials} />
-        <Route exact path="/contact/" component={Contact} />
-        <Route exact path="/flowers/:specific" component={SingleFlower} />
+        <Route path="/" exact component={Home} />
+        <Route path="/flowers/" exact component={Flowers} />
+        <Route path="/testimonials/" exact component={Testimonials} />
+        <Route path="/contact/" exact component={Contact} />
+        <Route path="/flowers/:specific" exact component={SingleFlower} />
         {/* <Route component={Error} /> */}
       </Switch>
       <Footer />
