@@ -6,7 +6,7 @@ export default function FlowerList({ flowers }) {
   if (flowers.length === 0) {
     return (
       <div className="empty-search">
-        <h3>unfortunately, no flower bulbs matched your search criteria</h3>
+        <h3>unfortunately no flower bulbs matched your search criteria</h3>
       </div>
     );
   }

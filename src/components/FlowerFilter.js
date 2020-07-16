@@ -17,6 +17,8 @@ export default function FlowerFilter({ flowers }) {
     price,
     minPrice,
     maxPrice,
+    minSize,
+    maxSize,
     cut,
     potted,
   } = context;
@@ -88,8 +90,30 @@ export default function FlowerFilter({ flowers }) {
           />
         </div>
         {/* end of flower price */}
-
-        {/* cut and potted info  */}
+        {/* size */}
+        <div className="form-group">
+          <label htmlFor="size">flower size</label>
+          <div className="size-inputs">
+            <input
+              type="number"
+              name="minSize"
+              id="size"
+              value={minSize}
+              onChange={handleChange}
+              className="size-input"
+            />
+            <input
+              type="number"
+              name="maxSize"
+              id="size"
+              value={maxSize}
+              onChange={handleChange}
+              className="size-input"
+            />
+          </div>
+        </div>
+        {/* end of size */}
+        {/* Terms and Conditions  */}
         <div className="form-group">
           <div className="single-extra">
             <input
@@ -112,7 +136,7 @@ export default function FlowerFilter({ flowers }) {
             <label htmlFor="potted">potted flower bulbs</label>
           </div>
         </div>
-        {/* end of cut and potted info  */}
+        {/* end of Terms and Conditions  */}
       </form>
     </section>
   );

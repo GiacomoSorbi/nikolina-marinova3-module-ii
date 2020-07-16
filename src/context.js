@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import items from "./data";
 
 const FlowerContext = React.createContext();
-
+// <FlowerContext.Provider value={'hello'}
 class FlowerProvider extends Component {
   state = {
     flowers: [],
@@ -14,6 +14,8 @@ class FlowerProvider extends Component {
     price: 0,
     minPrice: 0,
     maxPrice: 0,
+    minSize: 0,
+    maxSize: 0,
     cut: false,
     potted: false,
   };
@@ -23,6 +25,7 @@ class FlowerProvider extends Component {
     let flowers = this.formatData(items);
     let newFlowers = flowers.filter((flower) => flower.new === true);
     let maxPrice = Math.max(...flowers.map((item) => item.price));
+    let maxSize = Math.max(...flowers.map((item) => item.size));
     this.setState({
       flowers,
       newFlowers,
@@ -30,6 +33,7 @@ class FlowerProvider extends Component {
       loading: false,
       price: maxPrice,
       maxPrice,
+      maxSize,
     });
   }
 
