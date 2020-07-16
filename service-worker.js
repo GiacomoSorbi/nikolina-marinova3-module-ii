@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nikolina-marinova3-module-ii/precache-manifest.6947d6c0616473af14ae6ed7e02f6412.js"
+  "/nikolina-marinova3-module-ii/precache-manifest.b67aec8126cf014b31045d4490827f17.js"
 );
 
 self.addEventListener('message', (event) => {
