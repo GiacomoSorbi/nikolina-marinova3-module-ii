@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/nikolina-marinova3-module-ii/static/css/main.44cda55c.chunk.css",
-    "main.js": "/nikolina-marinova3-module-ii/static/js/main.fbf771d3.chunk.js",
-    "main.js.map": "/nikolina-marinova3-module-ii/static/js/main.fbf771d3.chunk.js.map",
+    "main.js": "/nikolina-marinova3-module-ii/static/js/main.4ff21983.chunk.js",
+    "main.js.map": "/nikolina-marinova3-module-ii/static/js/main.4ff21983.chunk.js.map",
     "runtime-main.js": "/nikolina-marinova3-module-ii/static/js/runtime-main.33599c6e.js",
     "runtime-main.js.map": "/nikolina-marinova3-module-ii/static/js/runtime-main.33599c6e.js.map",
     "static/js/2.036a460a.chunk.js": "/nikolina-marinova3-module-ii/static/js/2.036a460a.chunk.js",
     "static/js/2.036a460a.chunk.js.map": "/nikolina-marinova3-module-ii/static/js/2.036a460a.chunk.js.map",
     "index.html": "/nikolina-marinova3-module-ii/index.html",
-    "precache-manifest.1917ca8dea7345142ecdba72adc39a39.js": "/nikolina-marinova3-module-ii/precache-manifest.1917ca8dea7345142ecdba72adc39a39.js",
+    "precache-manifest.72f7305eeb844a9ef133e6944a3a8b96.js": "/nikolina-marinova3-module-ii/precache-manifest.72f7305eeb844a9ef133e6944a3a8b96.js",
     "service-worker.js": "/nikolina-marinova3-module-ii/service-worker.js",
     "static/css/main.44cda55c.chunk.css.map": "/nikolina-marinova3-module-ii/static/css/main.44cda55c.chunk.css.map",
     "static/js/2.036a460a.chunk.js.LICENSE.txt": "/nikolina-marinova3-module-ii/static/js/2.036a460a.chunk.js.LICENSE.txt",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.33599c6e.js",
     "static/js/2.036a460a.chunk.js",
     "static/css/main.44cda55c.chunk.css",
-    "static/js/main.fbf771d3.chunk.js"
+    "static/js/main.4ff21983.chunk.js"
   ]
 }
